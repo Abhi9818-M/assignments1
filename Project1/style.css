@@ -1,0 +1,47 @@
+/* .h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+h1{
+    width: auto;
+    padding: 20px 10px 10p;
+    font-weight: 400;
+}
+h1 span{
+    font-size: 40px;
+    color: blue;
+}
+.mb-blue{
+    background-color: blue;
+}
+.mb-orange{
+    background-color: orange;
+}
+.mb-cyan{
+    background-color: cyan;
+}
+.skills-display{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 75%;
+    padding: ;
+}
+.skill_progress{
+    width: 11rem;
+    height: 2.2rem;
+    background-color: lightgray;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 25px;
+
+}
+.skill-name span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    
+}
