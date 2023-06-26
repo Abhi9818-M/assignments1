@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e0adad;
+
   width: 100%;
   display: flex;
   height: 60px;
@@ -59,5 +59,99 @@
 }
 .section3{
     width: 100%;
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+}
+
+.pause{
+    margin-right: 25px;
+    width: 1.5%;
+    height: 1.5%;
+}
+.pause:hover{
+    width: 2%;
+    height: 2%;
+   
+}
+.full-stop1{
+    margin-top: -17px;
+    width: 4%;
+    height: 4%;
+}
+.full-stop2{
+    margin-top: -6px;
+    width: 2.5%;
+    height: 2.5%;
+}
+.section3 i{
+    margin: 0px 15px;
+}
+.section3 i:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+.section3 i:hover:after{
+    opacity: 1;
+    right: 10px;
+  }
+  .choose-operating{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+padding: 0px 316px;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    width: 210px;
     align-items: center;
+    padding: 5px -15px;
+    margin: 5px 5px ;
+  }
+  .content img{
+    width: 40px;
+    margin-bottom: 10px;
+    
+  }
+ .content a{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    color: #0067b8;
+    font-weight: 500;
+ }
+.series{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+}
+.series div{
+  align-items: center;
+  padding: 10px;
+}
+.series div img{
+  width: 320px;
+}
+.series div h1{
+  font-size: 1.8125rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.series div p,a{
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+.series div a{
+  font-weight: 570;
+  color: #0067b8;
+}
+.series div a span{
+  font-size: 20px;
+  font-weight: 700;
+  width: 10px;
 }
