@@ -57,14 +57,37 @@ body{
   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
+.section2{
+  position: relative;
+}
 .section2 img{
     width: 100%;
     height: 450px;
-    z-index: -1;
+   
 }
 .section2-image{
-  z-index: 1;
+  position: absolute;
+  top: 130px;
+  margin-left: 55em;
 }
+.section2-image h1{
+  font-size: 2.3rem;
+  margin-bottom: 1.25;
+  font-weight: 600;
+}
+.section2-image p{
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  width: 90%;
+}
+.section2-image div{
+  width: 22%;
+  background-color: #0067b8;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+}
+
 .section3{
     width: 100%;
     display: flex;
@@ -164,14 +187,41 @@ padding: 0px 316px;
   font-weight: 700;
   width: 10px;
 }
-.poster{
+.img{
   width: 100%;
+  position: relative;
+}
+.sec-image{
+  position: absolute;
+  top: 225gitpx;
+  margin-left: 7em;
+}
+.sec-image h1{
+  width: 70%;
+  color: white;
+  font-size: 2.3rem;
+  margin-bottom: 1.25;
+  font-weight: 600;
+}
+.sec-image p{
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  width: 50%;
+  color: white;
+}
+.sec-image div{
+  width: 21%;
+  background-color: #0067b8;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
 }
 .poster .img img{
   width: 92%;
   padding-top: 5%;
   margin: 30px 60px 75px 57px;
 }
+
 .section5 .head{
   margin-left: 60px;
   font-size: 2rem;
