@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    
+    
+}
+.side-nav-list{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.head{
+    width: 40%;
+    text-align: center;
+    
+    line-height: 70px;
+}
+.side-nav{
+    width: 60%;
+    margin-left: 350px;
+}
+.head h1{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 100px;
+   
+}
+.side-nav-list li{
+    cursor: pointer;
+    color: white;
+    line-height: 70px;
+    margin-left: 40px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+   padding: 15px;
+}
+.section2-head2{
+    width: 40%;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 29%;
+    font-size: 1.2em;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    background: linear-gradient(to right,black,red,black);
+}
+.section2-para{
+    padding: 20px;
+    text-align: center;
+}
+.section2-img{
+    display: flex;
+    justify-content: space-around;
+}
+.section2-img-detail img{
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
+.section2-img-detail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+
+}
+.section3-img-detail{
+   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+
+}
+.section3-img-detail img{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-top: 100px;
+}
+.footer{
+    text-align: center;
+}
+.footer-icon i{
+    margin: 0px 0px 0px 30px;
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 500;
+}
+.footer-para{
+    padding: 25px;
+}
+
+
+

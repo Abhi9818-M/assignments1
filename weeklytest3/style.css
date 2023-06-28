@@ -60,6 +60,10 @@ body{
 .section2 img{
     width: 100%;
     height: 450px;
+    z-index: -1;
+}
+.section2-image{
+  z-index: 1;
 }
 .section3{
     width: 100%;
