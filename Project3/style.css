@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baskervville',serif;
+    color: linen;
+    background-color: rgb(20, 30, 40);
+}
+h1{
+    font-family: 'Anton',sans-serif;
+}
+h2,h3,h4,h5{
+    font-family: 'Raleway',sans-serif;
+}
+a{
+    text-decoration: none;
+    color: linen;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 94rem 1fr;
+    row-gap: 3rem;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.heading{
+    display: grid;
+    grid-column: 2/3;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 1.5rem;
+}
+.hero{
+    grid-column: 1/-1;;
+}
+.hero-title{
+    color: orangered;
+    font-size: 8rem;
+    
+    text-align: center;
+}
+.hero-subtitle{
+    font-size: 2.4rem;
+    color: orangered;
+    text-align: center;
+}
+.author{
+    font-size: 2rem;
+    font-family: 'Raleway' , sans-serif;
+}
+.date{
+    color: rgba(255, 255, 255, 0.5);
+}
+.author-name a:hover{
+    background-color: #306203;
+}
+.social-icon{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    font-size: 3rem;
+    align-items: center;
+    grid-auto-flow: ;
+}
+.text{
+    grid-column: 2/3;
+    font-size: 1.5rem;
+    column-width: 300px;
+    text-align: justify;
+    letter-spacing: 0.6px;
+}
+hr{
+    margin: 1.5rem 0;
+    border: 1px solid rgba(120, 120, 120, 0.6);
+}
+.quote{
+    color: #00beef;
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+.firstpara::first-letter{
+    font-size: 6rem;
+    color: red;
+    margin-right: 1rem;
+    float: left;
+}
+.text-with-images{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+}
+.list-title{
+    text-align: start;
+}
+.lists{
+text-decoration: none;
+list-style: none;
+}
+.lists li{
+    margin-top: 2rem;
+    
+}
+.lists li h4{
+    color: #00beef;
+    font-weight: 600;
+  
+    font-size: 2.5rem;
+}
+.img-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+.image-1,.image-3{
+    grid-column: 1/-1;
+    column-gap: 2rem;
+}
+
