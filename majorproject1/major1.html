@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,277 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="header">
-        <nav class="nav contaniner">
-            <a href="" class="nav-logo">Travel</a>
+        <nav class="nav container">
+            <a href="" class="nav-logo" id="logo">Travel</a>
             <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="" class="nav-link active-link">Home</a>
+                        <a href="" class="nav-link active-link" id="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link active-link">About</a>
+                        <a href="" class="nav-link active-link" id="home">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link active-link">Discover</a>
+                        <a href="" class="nav-link active-link" id="home">Discover</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link active-link">Places</a>
+                        <a href="" class="nav-link active-link" id="home">Places</a>
                     </li>
                 </ul>
                 <div>
-                    <span class="change-theme-name">Dark Mode</span>
-                    <i class="ri-moon-line change-theme"></i>
+
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
                 </div>
             </div>
-
         </nav>
     </header>
+
+    <main>
+
+        <section>
+            <img src="./img/home1.jpg" class="home-image" alt="">
+            <div class="home-container container">
+                <div class="home_data">
+                    <span class="home-data-subtiitle">Discover your place</span>
+                    <h1 class="home-title">Explore The <br>Best<b>Beautiful<br>Beaches</b>
+                    </h1>
+                    <a href="" class="button">Explore</a>
+                </div>
+
+                <div class="floatContainer">
+                    <div class="home-info">
+                        <div class="home-info-content">
+                            <span class="home-info-title">5 best places to visit</span>
+                            <a href="">More<i class="ri-arrow-right-line"></i></a>
+                        </div>
+                        <div class="home-info-overlay">
+                        <img src="./img/home2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="home__social">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      class="home__social-link"
+                    >
+                      <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      class="home__social-link"
+                    >
+                      <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                      class="home__social-link"
+                    >
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="about-container container">
+                <div class="about-data">
+                    <h2 class="about-title">
+                        More Information <br />
+                        About The Best Beaches
+                    </h2>
+                    <p class="about-description">You can find the most beautiful and pleasant places at the best
+                        prices with special discounts, you choose the place we will guide
+                        you all the way to wait, get your place now.</p>
+                    <a href="" class="button">Reserve a place</a>
+                </div>
+                <div class="about-img">
+                    <div class="about-img-overlay">
+                        <img class="about-img-one" src="./img/about1.jpg" alt="">
+                    </div>
+                    <div class="about-img-overlay">
+                        <img class="about-img-two" src="./img/about2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience-section">
+            <h2 class="section-title">
+                With Our Experience <br />
+                We Will Serve You
+            </h2>
+            <div class="experience-container">
+                <div class="experience-content">
+                    <div class="experience-data">
+                        <h2 class="experience-number">20</h2>
+                        <span class="experience-descrip">Year Experience</span>
+                    </div>
+                    <div class="experience-data">
+                        <h2 class="experience-number">75</h2>
+                        <span class="experience-descrip">Complete tours</span>
+                    </div>
+                    <div class="experience-data">
+                        <h2 class="experience-number">650+</h2>
+                        <span class="experience-descrip">Complete destination</span>
+                    </div>
+                </div>
+                <div class="experience-img">
+                    <div class="experience-img-overlay">
+                        <img class="experience-img-one" src="./img/experience1.jpg" alt="">
+                    </div>
+                    <div class="experience-img-overlay">
+                        <img class="experience-img-two" src="./img/experience2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video-section">
+            <h2 class="section-title">Video Tour</h2>
+            <div class="video-container container">
+              <p class="video-description">
+                Find out more with our video of the most beautiful and
+                <br>pleasant places for you and your family.
+              </p>
+              <div class="video-content">
+                <video class="video-file">
+                  <source src="./img/video.mp4" type="video/mp4" />
+                </video>
+                <div class="video-button">
+                    <i class="ri-play-line video_button-icon"></i>
+                </div>
+                
+              </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="place-section sectiona">
+            <h2 class="place-section-title">
+                Choose Your Place
+            </h2>
+            <div class="place-container containera grida">
+                <div class="place-card">
+                    <img src="./img/place1.jpg" class="place-img img-p" id="img" alt="">
+                    <div class="place-content">
+                        <span class="place-rating">
+                            <i class="ri-star-line place_rating-icon"></i>
+                            <span class="place-rating-number">4,8</span>
+                        </span>
+                        <div class="place-data">
+                            <h3 class="place-title">Bali</h3>
+                            <span class="place-subtitle">Indonesia</span>
+                            <span class="place-price">$2499</span>
+                        </div>
+                    </div>
+                    <button  class="place-button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <div class="place-card">
+                    <img src="./img/place2.jpg" class="place-img img-p" id="img" alt="">
+                    <div class="place-content">
+                        <span class="place-rating">
+                            <i class="ri-star-line place_rating-icon"></i>
+                            <span class="place-rating-number">5,0</span>
+                        </span>
+                        <div class="place-data">
+                            <h3 class="place-title">Bora Bora</h3>
+                            <span class="place-subtitle">Polinesia</span>
+                            <span class="place-price">$1599</span>
+                        </div>
+                    </div>
+                    <button  class="place-button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <div class="place-card">
+                    <img src="./img/place3.jpg" class="place-img img-p" id="img" alt="">
+                    <div class="place-content">
+                        <span class="place-rating">
+                            <i class="ri-star-line place_rating-icon"></i>
+                            <span class="place-rating-number">4,9</span>
+                        </span>
+                        <div class="place-data">
+                            <h3 class="place-title">Hawaii</h3>
+                            <span class="place-subtitle">EE>UU</span>
+                            <span class="place-price">$3499</span>
+                        </div>
+                    </div>
+                    <button  class="place-button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <div class="place-card">
+                    <img src="./img/place4.jpg" class="place-img img-p" id="img" alt="">
+                    <div class="place-content">
+                        <span class="place-rating">
+                            <i class="ri-star-line place_rating-icon"></i>
+                            <span class="place-rating-number">4,8</span>
+                        </span>
+                        <div class="place-data">
+                            <h3 class="place-title">Whitehaven</h3>
+                            <span class="place-subtitle">Australia</span>
+                            <span class="place-price">$2499</span>
+                        </div>
+                    </div>
+                    <button class="place-button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <div class="place-card">
+                    <img src="./img/place5.jpg" class="place-img img-p" id="img" alt="">
+                    <div class="place-content">
+                        <span class="place-rating">
+                            <i class="ri-star-line place_rating-icon"></i>
+                            <span class="place-rating-number">4,8</span>
+                        </span>
+                        <div class="place-data">
+                            <h3 class="place-title">Hvar</h3>
+                            <span class="place-subtitle">Crocia</span>
+                            <span class="place-price">$1999</span>
+                        </div>
+                    </div>
+                    <button class="place-button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="section-subscribe">
+            
+            <div class="subscribe-bg container">
+                <div class="subscribe_conatiner">
+                    <h2 class="section-title subscribe-title">Subscribe Our <br> Newsletter</h2>
+                    <p class="subscribe-description">Subscribe to our newsletter and get a special 30% discount.</p>
+                    <form action="" class="subscribe-form">
+                        <input type="email" name="" placeholder="Enter Your Email" id="" class="subscribe-input">
+                        <button class="button-subscribe">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>  
+            </div>
+        </section>
+        
+        <section class="section-sponsor">
+            <div class="sponsor-container container">
+                <img src="./img/sponsors1.png" class="sponsor-image" alt="">
+                <img src="./img/sponsors2.png" class="sponsor-image" alt="">
+                <img src="./img/sponsors3.png" class="sponsor-image" alt="">
+                <img src="./img/sponsors4.png" class="sponsor-image" alt="">
+                <img src="./img/sponsors5.png" class="sponsor-image" alt="">
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
