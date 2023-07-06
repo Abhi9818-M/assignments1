@@ -490,3 +490,54 @@ button,input{
     width: 100px;
     filter: invert(0.7)
 }
+
+.section-footer{
+    padding: 50px 0;
+   
+}
+ul{
+    list-style: none;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.footer-data{
+    padding: 20px;
+    flex-basis: 25%;
+}
+.footer-title{
+    color: #14505c;
+    padding-bottom: 10px;
+    
+}
+.footers{
+    padding-left: 70px;
+}
+.footer-social{
+    font-size: 25px;
+   padding: 5px 5px;
+   padding-left: 0;
+   margin-top: 20px;
+   color: black;
+}
+.footer-ul li{
+    padding-bottom : 10px;
+    cursor: pointer;
+}
+.last-line{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    filter: invert(0.5);
+}
+.right-side-line{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right-side-line div{
+    padding-left: 20px;
+}
