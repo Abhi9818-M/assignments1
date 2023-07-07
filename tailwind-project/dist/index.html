@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind | project</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        .heading{
+            font-family: 'Poppins', sans-serif;
+        }
+        .button a{
+            transition: .3s linear;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="flex justify-between items-center py-8 px-10">
+            <div class="nav-head">
+                <h1 class=" heading  text-3xl text-red-600 font-semibold">Sauce</h1>
+            </div>
+            <div class="nav-options flex hover:tracking-widest">
+                <div class="nav-option-section button">
+                    <a href="" class="no-underline px-5 text-sm font-medium underline-offset-8 hover:underline ">Product</a>
+                </div>
+                <div>
+                    <a href=""class="no-underline px-5 text-sm font-medium underline-offset-8 hover:underline ">Features</a>
+                </div>
+                <div>
+                    <a href="" class="no-underline px-5 text-sm font-medium underline-offset-8 hover:underline ">Shop</a>
+                </div>
+                <div>
+                    <a href="" class="no-underline px-5 text-sm font-medium underline-offset-8 hover:underline ">Contact</a>
+                </div>
+            </div>
+            <div class="button flex items-center">
+                <div class=" linear py-3 px-4 bg-transparent rounded-xl hover:shadow-lg  hover:tracking-widest">
+                    <a href="" class="no-underline px-5">Login</a>
+                </div>
+                <div>
+                    <button class="py-3 px-6 border border-black rounded-xl bg-transparent hover:bg-black hover:text-white hover:tracking-wider hover:font-medium"><a href="">Register</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="mt-20 w-full px-[60px]" >
+        <section class="flex relative justify-center">
+            <div>
+                <h1 class="text-9xl">Spice Up to <br> Mood Up </h1>
+                <h2 class="text-7xl">Spicy Vegetable Rice</h2>
+                <div class=" button mt-10">
+                    <button class="py-5 px-6 border border-black rounded-2xl text-white bg-transparent hover:tracking-wider hover:font-medium"><a href="">Book a Table</a></button>
+                    <button class="py-5 px-6 border border-black rounded-2xl  bg-transparent  hover:bg-black hover:text-white hover:tracking-wider hover:font-medium"> <a href="">View Menu</a></button>
+                </div>
+                
+            </div>
+            <div>
+                <img src="./plate1.png" class="h-[500px] w-[500px]" alt="">
+                
+            </div>
+            
+        </section>
+    </main>
+    <div class="w-[800px] h-[800px] rounded-[1000px] absolute top-0 right-0 -z-10 blur-3xl bg-opacity-60 bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200"></div>
+    
+    <div class="blob w-[300px] h-[300px] rounded-[999px] absolute bottom-[-10px] left-0 -z-10 blur-3xl bg-opacity-60 bg-gradient-to-r from-green-200 via-cyan-200 to-Fuchsia-300"></div>
+</body>
+</html>
